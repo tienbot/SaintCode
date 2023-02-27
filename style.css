@@ -1,0 +1,109 @@
+.card{
+    max-width: 385px;
+    max-height: 650px;
+    padding: 18px 20px;
+    border: 1px solid black;
+}
+
+.img-container{
+    padding: 12px;
+    background: #F8F1FF;
+    border-radius: 10px;
+    max-width: 346px;
+    max-height: 327px;
+    display: flex;
+    justify-content: center;
+}
+
+.price{
+    color: #04C000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 17px 5px;
+}
+
+.old-price{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #AEAEAE;
+    margin-left: 15px;
+    text-decoration: line-through solid red;
+}
+
+.item-name{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 18px;
+}
+
+.icons{
+    display: flex;
+    margin-bottom: 18.5px;
+}
+
+.icons p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    color: #AEAEAE;
+    margin-left: 6.5px;
+}
+
+.icons .star, .icons .comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons .star{
+    margin-right: 29px;
+}
+
+.card button{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    background-color: transparent;
+    padding: 14px 18px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    /* margin-right: 34px; */
+    margin-bottom: 17px;
+}
+
+.card .red-btn{
+    color: #FFFFFF;
+    background-color: #F82D46;
+    border: 0;
+    font-weight: 400;
+    margin-right: 34px;
+}
+
+.card-bottom{
+    display: flex;
+}
+
+.card-bottom .delivery-icon{
+    margin-right: 11px;
+}
+
+.card-bottom p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+}
