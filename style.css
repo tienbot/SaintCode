@@ -1,28 +1,66 @@
+body{
+    margin: 20px;
+    font-family: 'Montserrat';
+    color: #333333;
+    font-weight: 600;
+}
+
 .card{
     max-width: 385px;
     max-height: 650px;
     padding: 18px 20px;
     border: 1px solid black;
+    border-radius: 10px;
 }
 
 .img-container{
     padding: 12px;
+    margin-bottom: 34px;
     background: #F8F1FF;
     border-radius: 10px;
     max-width: 346px;
     max-height: 327px;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.details{
+    position: absolute;
+    top: 12px;
+    right: 6.5px;
+    font-size: 17px;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    border: none;
+    border-radius: 50%;
+}
+
+.discount{
+    position: absolute;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 58px;
+    height: 58px;
+    background-color: #F82D46;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 12px;
+    left: 12px;
 }
 
 .price{
+    margin: 0 5px 17px 5px;
     color: #04C000;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    margin: 17px 5px;
 }
 
 .old-price{
@@ -35,11 +73,9 @@
 }
 
 .item-name{
-    font-family: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #333333;
     margin-bottom: 18px;
 }
 
@@ -49,9 +85,6 @@
 }
 
 .icons p{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
     font-size: 17px;
     line-height: 21px;
     color: #AEAEAE;
@@ -68,22 +101,18 @@
     margin-right: 29px;
 }
 
-.card button{
-    font-family: 'Montserrat';
-    font-style: normal;
+.text-container button{
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
-    color: #333333;
     background-color: transparent;
     padding: 14px 18px;
     border: 1px solid #333;
     border-radius: 10px;
-    /* margin-right: 34px; */
     margin-bottom: 17px;
 }
 
-.card .red-btn{
+.text-container .red-btn{
     color: #FFFFFF;
     background-color: #F82D46;
     border: 0;
@@ -100,10 +129,7 @@
 }
 
 .card-bottom p{
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 20px;
-    color: #333333;
 }
